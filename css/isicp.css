@@ -137,12 +137,11 @@ li {
 }
 
 #main {
-  width: 45%;
-  min-width: 400px;
+  width: 94%;
+  /* min-width: 320px; */
   margin: auto;
   margin-bottom: 3em;
 }
-
 /*autoscroll*/
 .CodeMirror-scroll {
   height: auto;
@@ -196,8 +195,9 @@ img.center {
 
 .CodeMirror {
   line-height: 1.3em;
+  font-size:125%;
 }
 
 .CodeMirror-scrollbar {
-  display: none !important;
+  display: auto !important;
 }
